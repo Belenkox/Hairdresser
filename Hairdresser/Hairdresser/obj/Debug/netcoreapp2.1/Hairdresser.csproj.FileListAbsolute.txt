@@ -1,0 +1,48 @@
+C:\Users\justi\Desktop\Hairdresser\Hairdresser\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\justi\Desktop\Hairdresser\Hairdresser\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\justi\Desktop\Hairdresser\Hairdresser\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\justi\Desktop\Hairdresser\Hairdresser\bin\Debug\netcoreapp2.1\Hairdresser.deps.json
+C:\Users\justi\Desktop\Hairdresser\Hairdresser\bin\Debug\netcoreapp2.1\Hairdresser.runtimeconfig.json
+C:\Users\justi\Desktop\Hairdresser\Hairdresser\bin\Debug\netcoreapp2.1\Hairdresser.runtimeconfig.dev.json
+C:\Users\justi\Desktop\Hairdresser\Hairdresser\bin\Debug\netcoreapp2.1\Hairdresser.dll
+C:\Users\justi\Desktop\Hairdresser\Hairdresser\bin\Debug\netcoreapp2.1\Hairdresser.pdb
+C:\Users\justi\Desktop\Hairdresser\Hairdresser\obj\Debug\netcoreapp2.1\Hairdresser.csprojAssemblyReference.cache
+C:\Users\justi\Desktop\Hairdresser\Hairdresser\obj\Debug\netcoreapp2.1\Hairdresser.RazorAssemblyInfo.cache
+C:\Users\justi\Desktop\Hairdresser\Hairdresser\obj\Debug\netcoreapp2.1\Hairdresser.RazorAssemblyInfo.cs
+C:\Users\justi\Desktop\Hairdresser\Hairdresser\obj\Debug\netcoreapp2.1\Hairdresser.AssemblyInfoInputs.cache
+C:\Users\justi\Desktop\Hairdresser\Hairdresser\obj\Debug\netcoreapp2.1\Hairdresser.AssemblyInfo.cs
+C:\Users\justi\Desktop\Hairdresser\Hairdresser\obj\Debug\netcoreapp2.1\Hairdresser.RazorTargetAssemblyInfo.cache
+C:\Users\justi\Desktop\Hairdresser\Hairdresser\obj\Debug\netcoreapp2.1\Hairdresser.dll
+C:\Users\justi\Desktop\Hairdresser\Hairdresser\obj\Debug\netcoreapp2.1\Hairdresser.pdb
+C:\Users\justi\Desktop\old\Hairdresser\Hairdresser\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\justi\Desktop\old\Hairdresser\Hairdresser\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\justi\Desktop\old\Hairdresser\Hairdresser\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\justi\Desktop\old\Hairdresser\Hairdresser\bin\Debug\netcoreapp2.1\Hairdresser.deps.json
+C:\Users\justi\Desktop\old\Hairdresser\Hairdresser\bin\Debug\netcoreapp2.1\Hairdresser.runtimeconfig.json
+C:\Users\justi\Desktop\old\Hairdresser\Hairdresser\bin\Debug\netcoreapp2.1\Hairdresser.runtimeconfig.dev.json
+C:\Users\justi\Desktop\old\Hairdresser\Hairdresser\bin\Debug\netcoreapp2.1\Hairdresser.dll
+C:\Users\justi\Desktop\old\Hairdresser\Hairdresser\bin\Debug\netcoreapp2.1\Hairdresser.pdb
+C:\Users\justi\Desktop\old\Hairdresser\Hairdresser\obj\Debug\netcoreapp2.1\Hairdresser.RazorAssemblyInfo.cache
+C:\Users\justi\Desktop\old\Hairdresser\Hairdresser\obj\Debug\netcoreapp2.1\Hairdresser.RazorAssemblyInfo.cs
+C:\Users\justi\Desktop\old\Hairdresser\Hairdresser\obj\Debug\netcoreapp2.1\Hairdresser.AssemblyInfoInputs.cache
+C:\Users\justi\Desktop\old\Hairdresser\Hairdresser\obj\Debug\netcoreapp2.1\Hairdresser.AssemblyInfo.cs
+C:\Users\justi\Desktop\old\Hairdresser\Hairdresser\obj\Debug\netcoreapp2.1\Hairdresser.RazorTargetAssemblyInfo.cache
+C:\Users\justi\Desktop\old\Hairdresser\Hairdresser\obj\Debug\netcoreapp2.1\Hairdresser.dll
+C:\Users\justi\Desktop\old\Hairdresser\Hairdresser\obj\Debug\netcoreapp2.1\Hairdresser.pdb
+C:\Users\justi\Desktop\old\Hairdresser\Hairdresser\obj\Debug\netcoreapp2.1\Hairdresser.csprojAssemblyReference.cache
+D:\Studijos\4 kursas\Saityno taikomųjų programų projektavimas\new hairdresser\Hairdresser\Hairdresser\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\Studijos\4 kursas\Saityno taikomųjų programų projektavimas\new hairdresser\Hairdresser\Hairdresser\bin\Debug\netcoreapp2.1\appsettings.json
+D:\Studijos\4 kursas\Saityno taikomųjų programų projektavimas\new hairdresser\Hairdresser\Hairdresser\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\Studijos\4 kursas\Saityno taikomųjų programų projektavimas\new hairdresser\Hairdresser\Hairdresser\bin\Debug\netcoreapp2.1\Hairdresser.deps.json
+D:\Studijos\4 kursas\Saityno taikomųjų programų projektavimas\new hairdresser\Hairdresser\Hairdresser\bin\Debug\netcoreapp2.1\Hairdresser.runtimeconfig.json
+D:\Studijos\4 kursas\Saityno taikomųjų programų projektavimas\new hairdresser\Hairdresser\Hairdresser\bin\Debug\netcoreapp2.1\Hairdresser.runtimeconfig.dev.json
+D:\Studijos\4 kursas\Saityno taikomųjų programų projektavimas\new hairdresser\Hairdresser\Hairdresser\bin\Debug\netcoreapp2.1\Hairdresser.dll
+D:\Studijos\4 kursas\Saityno taikomųjų programų projektavimas\new hairdresser\Hairdresser\Hairdresser\bin\Debug\netcoreapp2.1\Hairdresser.pdb
+D:\Studijos\4 kursas\Saityno taikomųjų programų projektavimas\new hairdresser\Hairdresser\Hairdresser\obj\Debug\netcoreapp2.1\Hairdresser.RazorAssemblyInfo.cache
+D:\Studijos\4 kursas\Saityno taikomųjų programų projektavimas\new hairdresser\Hairdresser\Hairdresser\obj\Debug\netcoreapp2.1\Hairdresser.RazorAssemblyInfo.cs
+D:\Studijos\4 kursas\Saityno taikomųjų programų projektavimas\new hairdresser\Hairdresser\Hairdresser\obj\Debug\netcoreapp2.1\Hairdresser.AssemblyInfoInputs.cache
+D:\Studijos\4 kursas\Saityno taikomųjų programų projektavimas\new hairdresser\Hairdresser\Hairdresser\obj\Debug\netcoreapp2.1\Hairdresser.AssemblyInfo.cs
+D:\Studijos\4 kursas\Saityno taikomųjų programų projektavimas\new hairdresser\Hairdresser\Hairdresser\obj\Debug\netcoreapp2.1\Hairdresser.RazorTargetAssemblyInfo.cache
+D:\Studijos\4 kursas\Saityno taikomųjų programų projektavimas\new hairdresser\Hairdresser\Hairdresser\obj\Debug\netcoreapp2.1\Hairdresser.dll
+D:\Studijos\4 kursas\Saityno taikomųjų programų projektavimas\new hairdresser\Hairdresser\Hairdresser\obj\Debug\netcoreapp2.1\Hairdresser.pdb
+D:\Studijos\4 kursas\Saityno taikomųjų programų projektavimas\new hairdresser\Hairdresser\Hairdresser\obj\Debug\netcoreapp2.1\Hairdresser.csprojAssemblyReference.cache
