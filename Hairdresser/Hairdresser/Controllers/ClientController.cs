@@ -8,6 +8,8 @@ using Hairdresser.Controllers;
 using System;
 using Hairdresser.Data;
 using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
+using System.Threading;
 
 namespace Hairdresser.Controllers
 {
@@ -18,8 +20,6 @@ namespace Hairdresser.Controllers
     {
         private readonly HairdresserContext _contextDb;
 
-        public List<Client> clients = new List<Client>();
-    
         public ClientController(HairdresserContext contextDb)
         {
             _contextDb = contextDb;
@@ -36,7 +36,21 @@ namespace Hairdresser.Controllers
         // GET: api/Client/4
         [Authorize(Roles = "Administrator,Client")]
         [HttpGet("{id}")]
-            public async Task<ActionResult<Client>> GetClient(int id)
+        public async Task<ActionResult<Client>> GetClient(int id)
+        {
+            var identity = HttpContext.User.Identity as ClaimsIdentity;
+            string sid;
+            if (identity != null)
+            {
+                sid = identity.FindFirst("id").Value;
+            }
+            else
+            {
+                return ValidationProblem();
+            }
+
+            if (identity.FindFirst(ClaimTypes.Role).Value == "Administrator"
+                ||int.Parse(sid) == _contextDb.Clients.Where(j => j.ID == id).FirstOrDefault().fk_User) //gali peržiūrėti tik administratorius arba pats klientas
             {
                 var client = await _contextDb.Clients.Where(j => j.ID == id).FirstOrDefaultAsync();
 
@@ -48,26 +62,71 @@ namespace Hairdresser.Controllers
                 return client;
             }
 
+            return ValidationProblem();
+
+        }
+
         //PUT: api/Client/4
         [Authorize(Roles = "Administrator,Client")]
         [HttpPut("{id}")]
-            public async Task<IActionResult> PutClient(int id, Client client)
+        public async Task<IActionResult> PutClient(int id, Client client)
+        {
+            var identity = HttpContext.User.Identity as ClaimsIdentity;
+            string sid;
+            if (identity != null)
             {
-                if (id != client.ID)
+                sid = identity.FindFirst("id").Value;
+            }
+            else
+            {
+                return ValidationProblem();
+            }
+            Client klientukas = await _contextDb.Clients.Where(j => j.ID == id).FirstOrDefaultAsync();
+            
+            if (klientukas == null)
+            {
+                return BadRequest("Couldnt find matching ID of client");
+            }
+            if (identity.FindFirst(ClaimTypes.Role).Value == "Administrator"
+                ||int.Parse(sid) == klientukas.fk_User) // gali redaguoti tik administratorius ir pats klientas
+            {
+                if (klientukas != null)
                 {
-                    return BadRequest();
+                    _contextDb.Entry(klientukas).State = EntityState.Detached;
                 }
+
+                client.ID = id;
+                client.fk_User = klientukas.fk_User;
 
                 _contextDb.Entry(client).State = EntityState.Modified;
                 await _contextDb.SaveChangesAsync();
 
-                return NoContent();
+                return Ok(client);
             }
+            else
+            {
+                return ValidationProblem();
+            }
+
+        }
 
         //DELETE: api/Client/4
         [Authorize(Roles = "Administrator,Client")]
         [HttpDelete("{id}")]
-            public async Task<IActionResult> DeleteClient(int id)
+        public async Task<IActionResult> DeleteClient(int id)
+        {
+            var identity = HttpContext.User.Identity as ClaimsIdentity;
+            string sid;
+            if (identity != null)
+            {
+                sid = identity.FindFirst("id").Value;
+            }
+            else
+            {
+                return ValidationProblem();
+            }
+            if (identity.FindFirst(ClaimTypes.Role).Value == "Administrator"
+                || int.Parse(sid) == _contextDb.Clients.Where(j => j.ID == id).FirstOrDefault().fk_User)
             {
                 var client = await _contextDb.Clients.FindAsync(id);
 
@@ -79,18 +138,27 @@ namespace Hairdresser.Controllers
                 _contextDb.Clients.Remove(client);
                 await _contextDb.SaveChangesAsync();
 
-                return NoContent();
+                return Ok(client);
             }
+            else
+            {
+                return ValidationProblem();
+            }
+        }
 
-        //POST: api/Client/4
-        [Authorize(Roles = "Administrator,Client")]
+        //POST: api/Client
+        [AllowAnonymous]
         [HttpPost]
         public async Task<ActionResult<Client>> PostClient(Client client)
         {
+            if (_contextDb.Clients.Where(x => x.Mail == client.Mail).FirstOrDefault() != null) //patikrina ar nera jau tokio email
+            {
+                return ValidationProblem();
+            }
             _contextDb.Clients.Add(client);
             await _contextDb.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetClient), new { id = client.ID }, client);
+            return Ok(client);
         }
     }
 }

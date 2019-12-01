@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="IIS Web Application Name" description="" value="HairdressersDotNetCoreWebApi" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Studijos\\4\ kursas\\Saityno\ taikomųjų\ programų\ projektavimas\\new\ hairdresser\\Hairdresser\\Hairdresser\\obj\\Release\\netcoreapp2\.1\\PubTmp\\Out\\$" />
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\justi\\Documents\\GitHub\\Hairdresser\\Hairdresser\\Hairdresser\\obj\\Release\\netcoreapp2\.1\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>

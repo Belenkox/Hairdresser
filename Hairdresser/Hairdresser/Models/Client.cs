@@ -11,6 +11,7 @@ namespace Hairdresser.Models
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Mail { get; set; }
+        public int fk_User { get; set; }
         //public /*List*/ICollection<Order> Orders { get; set; }
     }
 }

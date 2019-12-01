@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Studijos\\4 kursas\\Saityno taikomųjų programų projektavimas\\new hairdresser\\Hairdresser\\Hairdresser\\Hairdresser.csproj": {}
+    "C:\\Users\\justi\\Documents\\GitHub\\Hairdresser\\Hairdresser\\Hairdresser\\Hairdresser.csproj": {}
   },
   "projects": {
-    "D:\\Studijos\\4 kursas\\Saityno taikomųjų programų projektavimas\\new hairdresser\\Hairdresser\\Hairdresser\\Hairdresser.csproj": {
+    "C:\\Users\\justi\\Documents\\GitHub\\Hairdresser\\Hairdresser\\Hairdresser\\Hairdresser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Studijos\\4 kursas\\Saityno taikomųjų programų projektavimas\\new hairdresser\\Hairdresser\\Hairdresser\\Hairdresser.csproj",
+        "projectUniqueName": "C:\\Users\\justi\\Documents\\GitHub\\Hairdresser\\Hairdresser\\Hairdresser\\Hairdresser.csproj",
         "projectName": "Hairdresser",
-        "projectPath": "D:\\Studijos\\4 kursas\\Saityno taikomųjų programų projektavimas\\new hairdresser\\Hairdresser\\Hairdresser\\Hairdresser.csproj",
+        "projectPath": "C:\\Users\\justi\\Documents\\GitHub\\Hairdresser\\Hairdresser\\Hairdresser\\Hairdresser.csproj",
         "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-        "outputPath": "D:\\Studijos\\4 kursas\\Saityno taikomųjų programų projektavimas\\new hairdresser\\Hairdresser\\Hairdresser\\obj\\",
+        "outputPath": "C:\\Users\\justi\\Documents\\GitHub\\Hairdresser\\Hairdresser\\Hairdresser\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
+            "Microsoft.AspNet.Identity.Core": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",

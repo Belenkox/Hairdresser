@@ -14,3 +14,19 @@ D:\Studijos\4 kursas\Saityno taikomųjų programų projektavimas\new hairdresser
 D:\Studijos\4 kursas\Saityno taikomųjų programų projektavimas\new hairdresser\Hairdresser\Hairdresser\obj\Release\netcoreapp2.1\Hairdresser.RazorTargetAssemblyInfo.cache
 D:\Studijos\4 kursas\Saityno taikomųjų programų projektavimas\new hairdresser\Hairdresser\Hairdresser\obj\Release\netcoreapp2.1\Hairdresser.dll
 D:\Studijos\4 kursas\Saityno taikomųjų programų projektavimas\new hairdresser\Hairdresser\Hairdresser\obj\Release\netcoreapp2.1\Hairdresser.pdb
+C:\Users\justi\Documents\GitHub\Hairdresser\Hairdresser\Hairdresser\bin\Release\netcoreapp2.1\appsettings.Development.json
+C:\Users\justi\Documents\GitHub\Hairdresser\Hairdresser\Hairdresser\bin\Release\netcoreapp2.1\appsettings.json
+C:\Users\justi\Documents\GitHub\Hairdresser\Hairdresser\Hairdresser\bin\Release\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\justi\Documents\GitHub\Hairdresser\Hairdresser\Hairdresser\bin\Release\netcoreapp2.1\Hairdresser.deps.json
+C:\Users\justi\Documents\GitHub\Hairdresser\Hairdresser\Hairdresser\bin\Release\netcoreapp2.1\Hairdresser.runtimeconfig.json
+C:\Users\justi\Documents\GitHub\Hairdresser\Hairdresser\Hairdresser\bin\Release\netcoreapp2.1\Hairdresser.runtimeconfig.dev.json
+C:\Users\justi\Documents\GitHub\Hairdresser\Hairdresser\Hairdresser\bin\Release\netcoreapp2.1\Hairdresser.dll
+C:\Users\justi\Documents\GitHub\Hairdresser\Hairdresser\Hairdresser\bin\Release\netcoreapp2.1\Hairdresser.pdb
+C:\Users\justi\Documents\GitHub\Hairdresser\Hairdresser\Hairdresser\obj\Release\netcoreapp2.1\Hairdresser.csprojAssemblyReference.cache
+C:\Users\justi\Documents\GitHub\Hairdresser\Hairdresser\Hairdresser\obj\Release\netcoreapp2.1\Hairdresser.RazorAssemblyInfo.cache
+C:\Users\justi\Documents\GitHub\Hairdresser\Hairdresser\Hairdresser\obj\Release\netcoreapp2.1\Hairdresser.RazorAssemblyInfo.cs
+C:\Users\justi\Documents\GitHub\Hairdresser\Hairdresser\Hairdresser\obj\Release\netcoreapp2.1\Hairdresser.AssemblyInfoInputs.cache
+C:\Users\justi\Documents\GitHub\Hairdresser\Hairdresser\Hairdresser\obj\Release\netcoreapp2.1\Hairdresser.AssemblyInfo.cs
+C:\Users\justi\Documents\GitHub\Hairdresser\Hairdresser\Hairdresser\obj\Release\netcoreapp2.1\Hairdresser.RazorTargetAssemblyInfo.cache
+C:\Users\justi\Documents\GitHub\Hairdresser\Hairdresser\Hairdresser\obj\Release\netcoreapp2.1\Hairdresser.dll
+C:\Users\justi\Documents\GitHub\Hairdresser\Hairdresser\Hairdresser\obj\Release\netcoreapp2.1\Hairdresser.pdb

@@ -7,6 +7,7 @@ using Hairdresser.Models;
 using System;
 using Hairdresser.Data;
 using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace Hairdresser.Controllers
 {
@@ -61,13 +62,32 @@ namespace Hairdresser.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutEmployee(int id, Employee employee)
         {
-            if (id != employee.ID)
+            var identity = HttpContext.User.Identity as ClaimsIdentity;
+            string sid;
+            if (identity != null)
             {
-                return BadRequest();
+                sid = identity.FindFirst("id").Value;
+            }
+            else
+            {
+                return ValidationProblem();
             }
 
-            _contextDb.Entry(employee).State = EntityState.Modified;
-            await _contextDb.SaveChangesAsync();
+            Employee darbinyks = _contextDb.Employees.Where(x => x.ID == id).FirstOrDefault();
+
+            if (int.Parse(sid) == darbinyks.fk_User
+                || identity.FindFirst(ClaimTypes.Role).Value == "Administrator") // gali redaguoti tik administratorius ir pats darbuotojas
+            {
+                if (darbinyks != null)
+                {
+                    _contextDb.Entry(darbinyks).State = EntityState.Detached;
+                }
+                employee.ID = id;
+                employee.fk_User = darbinyks.fk_User;
+                _contextDb.Entry(employee).State = EntityState.Modified;
+                await _contextDb.SaveChangesAsync();
+                return Ok(employee);
+            }
 
             return NoContent();
         }
